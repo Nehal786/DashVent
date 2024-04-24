@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.box {
+  border: 10px solid black;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.children {
+  margin-left: 20px;
+}
+
+.box:hover {
+  border-color: brown;
+}
